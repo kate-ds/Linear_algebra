@@ -10,7 +10,7 @@ def matrix_multiply(matrix1, matrix2):
     print(mult)
     return mult
 
-def my_prod_test():
+def matrix_multiply_test():
     a = [[1, -2], [3, 0]]
     b = [[4, -1], [0, 5]]
     c = [[1, 2, 3], [4, 5, 6]]
@@ -18,4 +18,4 @@ def my_prod_test():
     print("Test1 - ", "OK" if matrix_multiply(a, b) == [[ 4, -11], [ 12,  -3]] else "False")
     print("Test2 - ", "OK" if matrix_multiply(c, d) == [[22, 28], [49, 64]] else "False")
 
-my_prod_test()
+matrix_multiply_test()
